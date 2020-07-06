@@ -12,8 +12,8 @@
   "homepage": "https://github.com/react-native-community/react-native-webview#readme",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "start:android": "react-native run-android --root example/",
-    "start:ios": "react-native run-ios --project-path example/ios --scheme example",
+    "start:android": "react-native run-android",
+    "start:ios": "react-native run-ios",
     "start:macos": "node node_modules/react-native-macos/local-cli/cli.js start --use-react-native-macos",
     "start:windows": "react-native start --use-react-native-windows",
     "ci": "CI=true && yarn lint",
@@ -29,8 +29,8 @@
     "type": "Component"
   },
   "peerDependencies": {
-    "react": "^16.9",
-    "react-native": ">=0.60 <0.62"
+    "react": "16.11.0",
+    "react-native": ">=0.60 <0.63"
   },
   "dependencies": {
     "escape-string-regexp": "2.0.0",
@@ -39,9 +39,9 @@
   "devDependencies": {
     "@babel/core": "7.4.5",
     "@babel/runtime": "7.4.5",
-    "@react-native-community/cli": "^3.2.0",
-    "@react-native-community/cli-platform-android": "^3.0.0",
-    "@react-native-community/cli-platform-ios": "^3.0.0",
+    "@react-native-community/cli": "^4.8.0",
+    "@react-native-community/cli-platform-android": "^4.8.0",
+    "@react-native-community/cli-platform-ios": "^4.8.0",
     "@semantic-release/git": "7.0.16",
     "@types/invariant": "^2.2.30",
     "@types/jest": "24.0.18",
@@ -66,7 +66,7 @@
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-macos": "0.60.0-microsoft.73",
-    "react-native-windows": "0.61.5",
+    "react-native-windows": "^0.62.0-0",
     "semantic-release": "15.13.24",
     "typescript": "3.9.6",
     "appium": "1.17.0",
